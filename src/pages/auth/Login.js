@@ -7,7 +7,7 @@ import Spinner from "./../../components/shared/Spinner";
 import { toast } from "react-toastify";
 
 const Login = () => {
-  const { loading, error } = useSelector((state) => state.auth);
+  const { loading } = useSelector((state) => state.auth);
   return (
     <>
       {error && <span>{toast.error(error)}</span>}
