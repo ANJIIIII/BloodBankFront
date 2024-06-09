@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import Spinner from '../../components/shared/Spinner';
 
 function Register() {
-  const { loading, error } = useSelector((state) => state.auth);
+  const { loading } = useSelector((state) => state.auth);
   return (
     <>
     {
