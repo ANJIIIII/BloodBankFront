@@ -18,13 +18,13 @@
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
-.border1{
+/* .border1{
   border: 1px solid #99d9ee;
   border-radius: 20px;
   padding:8%;
   /* box-shadow: 10px 10px rgb(177, 223, 232); */
   box-shadow: 0 4px 8px 0 rgba(160, 209, 224, 0.2), 0 6px 20px 0 rgba(27, 30, 32, 0.19);
-}
+} */
 /* -----------loader---------- */
 
 .loader-container{
