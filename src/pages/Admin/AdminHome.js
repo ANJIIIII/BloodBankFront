@@ -6,7 +6,7 @@ const AdminHome = () => {
   const { user } = useSelector((state) => state.auth);
   return (
     <Layout>
-      <div className="container">
+      <div className="container"  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
         <div className="d-felx flex-column mt-4">
           <h1>
             Welcome Admin <i className="text-success">{user?.name}</i>

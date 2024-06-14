@@ -1,39 +1,41 @@
 .sidebar {
-    height: 100vh !important;
-    /* border-radius: 5px; */
-    background-color: #2e3200;
-    box-shadow: 0 0 2px gray;
-    color: white;
-  }
-  
-  .menu {
-    padding-top: 100px;
-  }
-  
-  .menu-item {
-    padding-top: 30px;
-  }
-  
-  .menu-item a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  .menu-item i {
-    font-size: 1.2rem;
-    margin: 0 15px;
-    color: white;
-  }
-  
-  .active {
-    background-color: white;
-    padding: 10px;
-    margin-top: 25px;
-  }
-  
-  .active a,
-  .active i {
-    color: #2e3200;
-  }
-  
+  height: 100vh !important;
+  /* border-radius: 5px; */
+  background-color: #719192;
+  box-shadow: 0 0 2px gray;
+  color: rgb(65, 57, 57);
+}
+
+.menu {
+  padding-top: 100px;
+}
+.col-md-9{
+    color: black;
+    background-color: #dfcdc3;
+}
+.menu-item {
+  padding-top: 30px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.5rem;
+  margin: 0 15px;
+  color: white;
+}
+
+.active {
+  background-color: rgb(212, 223, 118);
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.active a,
+.active i {
+  color: #2e3200;
+}

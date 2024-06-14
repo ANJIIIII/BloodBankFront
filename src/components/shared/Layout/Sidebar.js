@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="sidebar">
+      <div className="sidebar"  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
         <div className="menu">
           {user?.role === "organisation" && (
             <>

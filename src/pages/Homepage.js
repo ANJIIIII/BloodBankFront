@@ -6,6 +6,8 @@ import Layout from "../components/shared/Layout/Layout";
 import Modal from "../components/shared/modal/Modal";
 import Api from "../services/Api";
 import moment from "moment";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faSquarePlus } from '@fortawesome/free-solid-svg-icons';
 
 const HomePage = () => {
   const { loading, error, user } = useSelector((state) => state.auth);
@@ -36,14 +38,15 @@ const HomePage = () => {
         <Spinner />
       ) : (
         <>
-          <div className="container">
+          <div className="container"  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
             <h4
               className="ms-4"
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
               style={{ cursor: "pointer" }}
             >
-              <i className="fa-solid fa-plus text-success py-4"></i>
+              
+              <FontAwesomeIcon icon={faSquarePlus} size="2x" className="mx-2"  />
               Add Inventory
             </h4>
             <table className="table ">

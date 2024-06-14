@@ -14,7 +14,9 @@ function Register() {
             <img src='./assets/image/2.jpg' alt="register img"/>
           </div>
           <div className='col-md-4 form-container'>
+          <div className="border1">
             <Form formTitle={"Register"} submitButton={'Register'} formType={'Register'} />
+            </div>
           </div>
         </div>
         )

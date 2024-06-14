@@ -38,7 +38,7 @@ const Organisation = () => {
   
     return (
       <Layout>
-        <table className="table ">
+        <table className="table "  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
           <thead>
             <tr>
               <th scope="col">Name</th>

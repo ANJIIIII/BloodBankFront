@@ -31,7 +31,7 @@ const Consumer = () => {
 
   return (
     <Layout>
-      <div className="container mt-4">
+      <div className="container mt-4"  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
         <table className="table">
           <thead>
             <tr>

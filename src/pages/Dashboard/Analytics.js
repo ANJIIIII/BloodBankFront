@@ -53,7 +53,7 @@ const Analytics = () => {
   return (
     <>
       <Header />
-      <div className="d-flex flex-row flex-wrap">
+      <div className="d-flex flex-row flex-wrap"  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
         {data?.map((record, i) => (
           <div
             className="card m-2 p-1"
@@ -77,7 +77,7 @@ const Analytics = () => {
           </div>
         ))}
       </div>
-      <div className="container my-3">
+      <div className="container my-3"  style={{ fontFamily: '"Times New Roman", Times, serif' }}>
         <h1 className="my-3">Recent Blood Transactions</h1>
         <table className="table ">
           <thead>
